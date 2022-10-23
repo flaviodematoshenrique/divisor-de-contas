@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Divisor de Contas</title>
+</head>
+<body>
+    <h1>Divisor de Contas de Restaurante</h1>
+    <div class="container-produtos">
+        <div>
+            <h2>O que foi consumido?</h2>
+            <input class="informacoes" type="text" placeholder="Produto" id="nome-produto">
+            <input class="informacoes" type="number" placeholder="Quantidade" id="qtd-produto" value="1" min="1">
+            <input class="informacoes" type="number" placeholder="Valor: R$" id="valor-produto">
+            <button class="btn-adicionar" id="btn-add-produto">+</button>
+        </div>
+        <ul id="lista-produtos"></ul>
+        <h3 class="valor-total" id="valor-total-conta">VALOR TOTAL DA CONTA: R$ 0</h3> 
+    </div>
+    <div class="container-pagantes">
+        <div>
+            <h2>Quem vai pagar?</h2>
+            <input class="informacoes" type="text" placeholder="Nome" id="nome-pagante">
+            <button class="btn-adicionar" id="btn-add-pagante">+</button>
+        </div>
+        <ul id="lista-pagantes"></ul>
+        <h3 class="valor-total" id="valor-total-pago">VALOR TOTAL PAGO: R$ 0</h3>
+        <h3 class="valor-a-pagar" id="valor-a-pagar">FALTA PAGAR: R$ 0</h3>
+    </div>
+    <script src="./script/index.js"></script>  
+</body>
+</html>

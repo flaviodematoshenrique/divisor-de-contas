@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(35deg, rgb(23, 26, 59), rgb(103, 103, 104));
+    color: azure;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.container-produtos{
+    margin-bottom: 65px;
+}
+
+.informacoes{
+    margin: 0px 3px 18px 3px;
+    width: 170px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+.btn-adicionar{
+    font-size: 20px;
+    color: azure;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: rgb(67, 136, 67);
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 3.2px 3px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn-adicionar:hover{
+    background-color: rgb(100, 206, 100);
+}
+
+.li-produtos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.listados{
+    font-size: 20px;
+    margin: 0 9px 0 9px;
+}
+
+.valor-total{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.container-pagantes{
+    margin: 18px 0 203px 0;
+}
+
+#lista-pagantes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.li-pagantes{
+    background-color: rgba(65, 65, 65, 0.336);
+    border-radius: 5px;
+    box-shadow: 5px 4px rgba(0, 0, 0, 0.4);
+    padding: 18px;
+    margin: 10px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.lista-a-pagar{
+    margin: 12px 0 12px 0;
+    text-align: left;
+}
+
+.item-lista-a-pagar{
+    margin: 8px 0 8px 0;
+}
+
+.excluir{
+    font-size: 12px;
+    color: azure;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: rgb(168, 18, 18);
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 3.2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.excluir:hover{
+    background-color: rgb(228, 35, 35);
+}
